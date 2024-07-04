@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAHA</title>
+    <style>
+        /* body 요소에 배경 색상을 설정합니다. */
+        body {
+            background-color: #cacaca; /* 예시로 배경 색상을 회색 계통으로 지정 */
+        }
+        
+        .centered-text {
+            width: 35%; /* 예시로 요소의 너비를 지정 */
+            margin: 0 auto; /* 좌우 여백을 자동으로 설정하여 요소를 가운데 정렬 */
+        }
+
+        .list-container {
+            display: none; /* 초기에는 숨겨진 상태 */
+            margin-top: 20px; /* 리스트와 버튼 사이의 간격 조정 */
+        }
+    </style>
+
+    <link rel="stylesheet" href="styles.css">
+    <script>
+
+        function goToWebsite() {
+            // 새로운 페이지로 이동
+            window.location.href = "https://chatgpt.com/c/7bf128db-9d43-4af4-a0f8-f78980ca9f90"; // 이동할 웹페이지 URL 입력
+        }        
+
+
+        function goToPage() {
+            alert("유튜브로 이동 합니다");
+            window.location.href = "https://www.youtube.com/channel/UCJW21zyevw9UAgTnYt4q2VA"; // 이동할 URL을 여기에 입력하세요
+        }
+        
+        function ddbb() {
+            alert("ChatGPT로 이동 합니다");
+            window.location.href = "https://chatgpt.com"
+        }
+
+        function coke() {
+            alert("TEST");
+
+        }
+
+        function toggleContent() {
+            var content = document.getElementById("content");
+            var list = document.getElementById("myList");
+            
+            // 현재 상태를 확인하여 토글
+            if (content.style.display === "none") {
+                content.style.display = "block";
+                list.style.display = "block";
+            } else {
+                content.style.display = "none";
+                list.style.display = "none";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <button class= "libu" onclick="toggleContent()">버튼 모음</button>
+    
+    <!-- 이미지와 리스트를 포함하는 컨테이너 -->
+    <div class="container" id="content">
+        <!-- 리스트 -->
+        <div class="list-container" id="myList">
+            <ul>
+                <img src="summ.png" alt="이미지" class="clickable-image" onclick="goToWebsite()">
+                <button class="tubu" onclick="ddbb()">ChatGPT로 바로가기</button>
+                <button class="bu" onclick="goToPage()">유튜브 바로가기</button>
+                <button class="TEST" onclick="coke()">TEST</button>
+            </ul>
+        </div>
+    </div>
+
+    <h1 class="uu">여름방학 할래요</h1>
+    <p class="ddd"></p>
+
+    <footer>
+        <div class="centered-text">
+            <p class="lip">THIS PAGE IS TEST HOMEPAGE</p>
+        </div>
+    </footer>
+</body>
+</html>

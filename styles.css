@@ -1,0 +1,95 @@
+img {
+    width: 200px;
+    height: 200px;
+    display: auto;
+    margin: 0 auto;
+}
+
+.summeim {
+    width: 250px;
+    height: 250px;
+    display: auto;
+    margin: 0 auto;
+}
+
+.mun {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.uu{
+    color: coral;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.bu{
+    background-color: rgb(25, 128, 187);
+    color: rgb(223, 27, 27);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tubu{
+    background-color: rgb(25, 187, 106);
+    color: rgb(27, 223, 223);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.test{
+    background-color: rgb(25, 168, 187);
+    color: rgb(181, 223, 27);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lip{
+    color: rgb(123, 123, 126);
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.liim{
+    width: 1px;
+    height: 1px;
+
+}
+
+.libu {
+    background-color: #4caf4f00; /* 배경색 */
+    color: rgb(0, 0, 0); /* 글자색 */
+    padding: 10px 20px; /* 내부 여백 */
+    font-size: 36px; /* 글자 크기 */
+    border: none; /* 기본 외곽선 없애기 */
+    cursor: pointer; /* 포인터 커서 설정 */
+    text-decoration: none; /* 텍스트에 밑줄 없애기 */
+    display: inline-block; /* 인라인 블록 요소로 설정하여 여백 조절 가능 */
+    font-weight: bolder;
+    transition: background-color 0.3s, color 0.2s; /* 변화를 부드럽게 만들기 위한 transition 설정 */
+}
+
+/* 마우스를 올렸을 때의 스타일 */
+.libu:hover {
+    color: rgb(39, 207, 171);
+}
+
+/* 버튼을 클릭했을 때의 스타일 */
+.libu:active {
+    color: rgb(255, 255, 255);
+}
+
+.clickable-image {
+    cursor: pointer; /* 포인터 커서 설정 */
+}
